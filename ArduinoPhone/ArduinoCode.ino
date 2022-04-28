@@ -1,3 +1,14 @@
+// Pinout for this code
+
+
+
+   /* Vio connects to 5V (or, with a 3V logic Arduino, 3V)
+    GND connects to GND
+    Key connects to GND (always on)
+    RX connects to digital 2 (NEED TO CHANGE UNLESS CAN FIX 2 PIN)
+    TX connects to digital 3 (9 on Leo/Micro, 10 on Mega)
+    RST connects to digital 4*/
+
 #include "Adafruit_FONA.h"  // This is the library which runs the SIM module
 // This is in brackets because it is using an outside library which does not need to be loaded onto the Arduino's CPU
 #define FONA_RST 4 // Defines the reset pin that is used later on
