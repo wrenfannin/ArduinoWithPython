@@ -334,7 +334,7 @@ void loop() {
         if (!fona.sendSMS(sendto, message)) {
           Serial.println(F("Failed"));
         } else {
-          Serial.println(F("Sent!"));
+          Serial.println(F("Sent!")); // Message showing success or failure of function
         }
 
         break;
